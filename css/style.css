@@ -41,3 +41,61 @@
   margin-bottom: 40px;
 }
 
+.ticket{
+  margin: 0 30px;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  border-top: 2px solid rgb(29, 209, 0);
+  border-radius: 88px 88px 0px 0px;
+  background: rgb(247, 248, 248);
+}
+
+.ticket-title{
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  padding: 20px 12px;
+}
+
+.seat-btn{
+  border: 2px solid #1dd10066;
+  padding: 10px 20px 10px 20px;
+  border-radius: 12px;
+  background-color: #1DD1001A;
+}
+
+.contact-info{
+  margin-top: 20px;
+  border-radius: 15px;
+  background: rgb(247, 248, 248);
+  padding: 20px 20px 24px 24px;
+}
+
+.ticket-btn{
+  font-size: 14px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.05);
+  padding: 10px 20px;
+}
+
+.seat{
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.btn{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #008A00;
+  color: #fff;
+}

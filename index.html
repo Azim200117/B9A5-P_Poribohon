@@ -27,8 +27,7 @@
           <li><a href="#">Search</a></li>
           </ul>
       </nav>
-      <button class="bus-btn flex gap-2 items-center font-raleway font-bold text-xl text-[#1DD100]">Bus <img
-          src="images/bus-icon.png" alt=""></button>
+      <button class="bus-btn flex gap-2 items-center font-raleway font-bold text-xl text-[#1DD100]">Bus <img src="images/bus-icon.png" alt=""></button>
     </div>
 
   </header>
@@ -36,7 +35,7 @@
   <!-- Main Section -->
   <main>
     <!-- Header Section -->
-    <div class="container px-20 py-9 ml-5">
+    <div class="container px-28 py-9 ml-7">
     <div class="hero min-h-screen rounded-[32px]" style="background-image: url(images/banner.png);">
       <div class="hero-overlay bg-opacity-60 rounded-[32px]"></div>
       <div class="hero-content text-center text-neutral-content">
@@ -87,10 +86,191 @@
     </section>
 
     <!-- Ticket Section -->
+    <section class="ticket">
+      <div class="flex flex-col items-center justify-center">
+        <h3 class="font-raleway font-700 text-4xl mb-2">P-PariBahan</h3>
+        <p class="text-xl font-normal font-montserrat text-[#03071299]  mb-10">Yes, you can run unit tests and view the results directly within the app.</p>
+      </div>
+
+      <div class="ticket-title flex gap-[115px]">
+        <div class="main-ticket">
+          <div class="ticket-car flex flex-roe gap-3">
+            <div class="bus-img">
+              <img src="images/bus-logo.png" alt="">
+            </div>
+            <div class="bus-text">
+              <h4 class="text-2xl">GreenLine Paribohan</h4>
+              <p class="text-[16px] text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+            </div>
+            <div class="ml-20 seat-left flex flex-row items-center justify-center">
+              <button class="seat-btn flex gap-2 items-center font-raleway font-bold text-xl text-[#1DD100]">40 seats left<img src="images/seat-green.png" alt=""></button>
+            </div>
+          </div>
+         
+          <div class="contact-info w-[650px]">
+            <div class="flex flex-row justify-between items-center">
+              <h2 class="font-semibold text-xl">Route</h2>
+              <h3 class="font-semibold text-[#030712] text-xl">Dhaka to Sylhet</h3>
+            </div>
+            <hr>
+            <div class="flex flex-row justify-between items-center mt-5">
+              <h2 class="font-semibold text-xl">Departure Time</h2>
+              <h3 class="font-semibold text-[#030712] text-xl">9:00</h3>
+            </div>
+            <hr>
+            <div class="mt-5">
+              <div>
+                <button class="ticket-btn">Boarding Point - Laxmipur</button>
+                <button class="ticket-btn">Dropping Point - Bogura</button>
+                <button class="ticket-btn">Est. Time - 11 Hour</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticket-price mt-10">
+          <div>
+            <img src="images/fare.png" alt="" class="items-center justify-center">
+          </div>
+          <div class="text-center justify-center items-center">
+          <h2 class="mt-2 font-bold text-2xl">550 tk</h2>
+          <h2 class="font-medium text-xl">Per Seat</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seat Section -->
+      <div id="seat" class="flex flex-row gap-10"> 
+        <div class="seat-1 mt-10 rounded-3xl bg-white px-10 py-5 ">
+          <div class="mb-5"> 
+            <h3 class="text-3xl justify-left">Select Your Seat</h3>
+          </div>
+          <div class="icon flex flex-row items-center gap-32">
+            <div>
+              <img src="images/seat-gray.png" alt="">
+              <h2>Avaiable</h2>
+            </div>
+            <div>
+              <img src="images/seat-green-filled.png" alt="">
+              <h2>Selected</h2>
+            </div>
+          </div>
+            <div>
+              <div class="mt-5 ml-48">
+                <button class='btn btn-square'><img src="images/driver.png" alt=""></button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">A</h3>
+                <button id="bgGreen1" class="btn btn-squre">A1</button>
+                <button id="bgGreen2" class="btn btn-squre">A2</button>
+                <button id="bgGreen3" class="btn btn-squre">A3</button>
+                <button id="bgGreen4" class="btn btn-squre">A4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">B</h3>
+                <button id="bgGreen5" class="btn btn-squre">B1</button>
+                <button id="bgGreen6" class="btn btn-squre">B3</button>
+                <button id="bgGreen7" class="btn btn-squre">B4</button>
+                <button id="bgGreen8" class="btn btn-squre">B2</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">C</h3>
+                <button id="bgGreen9"  class="btn btn-squre">C1</button>
+                <button id="bgGreen10" class="btn btn-squre">C2</button>
+                <button id="bgGreen11" class="btn btn-squre">C3</button>
+                <button id="bgGreen12" class="btn btn-squre">C4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">D</h3>
+                <button id="bgGreen13" class="btn btn-squre">D1</button>
+                <button id="bgGreen14" class="btn btn-squre">D2</button>
+                <button id="bgGreen15" class="btn btn-squre">D3</button>
+                <button id="bgGreen16" class="btn btn-squre">D4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">E</h3>
+                <button id="bgGreen17" class="btn btn-squre">E1</button>
+                <button id="bgGreen18" class="btn btn-squre">E2</button>
+                <button id="bgGreen19" class="btn btn-squre">E3</button>
+                <button id="bgGreen20" class="btn btn-squre">E4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">F</h3>
+                <button id="bgGreen21" class="btn btn-squre">F1</button>
+                <button id="bgGreen22" class="btn btn-squre">F2</button>
+                <button id="bgGreen23" class="btn btn-squre">F3</button>
+                <button id="bgGreen24" class="btn btn-squre">F4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3  text-xl font-bold">
+                <h3 class="items-center flex flex-row">G</h3>
+                <button id="bgGreen25" class="btn btn-squre">G2</button>
+                <button id="bgGreen26" class="btn btn-squre">G1</button>
+                <button id="bgGreen27" class="btn btn-squre">G3</button>
+                <button id="bgGreen"28 class="btn btn-squre">G4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">H</h3>
+                <button id="bgGreen29" class="btn btn-squre">H1</button>
+                <button id="bgGreen30" class="btn btn-squre">H2</button>
+                <button id="bgGreen31" class="btn btn-squre">H3</button>
+                <button id="bgGreen32" class="btn btn-squre">H4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">I</h3>
+                <button id="bgGreen33" class="btn btn-squre">I1</button>
+                <button id="bgGreen34" class="btn btn-squre">I2</button>
+                <button id="bgGreen35" class="btn btn-squre">I3</button>
+                <button id="bgGreen36" class="btn btn-squre">I4</button>
+              </div>
+              <div class="mt-3 flex flex-row item-center gap-3 text-xl font-bold">
+                <h3 class="items-center flex flex-row">J</h3>
+                <button id="bgGreen37" class="btn btn-squre">J1</button>
+                <button id="bgGreen38" class="btn btn-squre">J2</button>
+                <button id="bgGreen39" class="btn btn-squre">J3</button>
+                <button id="bgGreen40" class="btn btn-squre">J4</button>
+              </div>
+            </div>
+        </div>
+
+        <div class="seat-2 mt-10 rounded-3xl bg-white px-32 py-5">
+          <div>
+            <div>
+              <h3 class="text-2xl justify-center">Select Your Seat</h3>
+            </div>
+            <div class="rounded-3xl bg-[#F7F8F8] px-12 py-10 mt-2 flex flex-row gap-10 items-center justify-center h-28 ">
+              <div>
+                <h5>Seat</h5>
+                <p class="mt-5">C2</p>
+              </div>
+
+              <div>
+                <h5>Class</h5>
+                <p class="mt-5">Economy</p>
+              </div>
+
+              <div>
+                <h5> Price</h5>
+                <p class="mt-5">550</p>
+              </div>
+              
+            </div>
+            <div>
+              <button class="mt-5 mb-5 text-center justify-center items-center px-7 py-5 bg-green-700 text-white rounded-lg w-full">Next</button>
+
+              <div class="flex flex-row gap-5">
+                <a href="#" class="text-[#03071299] text-[16px]">Terms and Conditions</a>
+                <a href="#" class="text-[#03071299] text-[16px]">Cancellation Policy</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer Section-->
     <section>
-      <div class="bg-[#030712] text-white px-24 py-10">
+      <div class="bg-[#030712] text-white px-24 py-10 mt-5">
         <div class="flex flex-row justify-between">
           <div>
           <h3 class="font-bold text-3xl">P-PoriBohon</h3>
@@ -118,5 +298,6 @@
     </section>
   </main>
 
+  <script src="js/scipt.js"></script>
 </body>
 </html>
